@@ -1,0 +1,51 @@
+.content-our{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#our-text{
+    color: #4caf50;
+    font-weight: 700;
+}
+
+.our-text-ph{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#text{
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #333;
+}
+.our-ph{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+#pht{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.our-ph{
+    overflow: hidden;
+    max-width: 100%;
+}
+.catalog-goods{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.goods{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#name{
+    color: #333;
+}
+.goods:hover{
+    box-shadow: 1px 1px 5px;
+}
+#a-none{
+    text-decoration: none;
+    color: #333;
+}

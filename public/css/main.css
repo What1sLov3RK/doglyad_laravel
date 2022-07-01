@@ -1,0 +1,360 @@
+@import 'style.css';
+@import 'good.css';
+
+body{
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.wrap{
+    max-width: 1600px;
+    margin: auto;
+}
+.logo{
+    flex: 2;
+}
+
+header{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.menu-mobile{
+    display: none;
+    flex: 6;
+}
+.menu-navigation{
+    line-height: 134px;
+}
+#menu-position{
+    margin-left:  30px;
+}
+#menu-a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: .4s;
+}
+#menu-a:hover{
+    color: chartreuse;
+    transition: .4s;
+}
+.color-position-1{
+    color: #5f9a25;
+}
+.color-position-2{
+    color: black;
+}
+.description{
+    text-align: center;
+}
+#description-title{
+    color: #605E5E;
+    font-weight: 100;
+}
+#description-goods{
+    color: #605E5E;
+    font-weight: 100;
+    max-width: 600px;
+    margin: auto;
+}
+#description-title-2{
+    color: #2982C2;
+    font-weight: 100;
+}
+.content{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-goods-description{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    max-width: 600px;
+    margin: auto;
+}
+#card-text{
+    color: #2982C2;
+}
+#btn-catalog{
+    width: 200px;
+    height: 50px;
+    background: #91f134;
+    color: #605E5E;
+    border-radius: 10px;
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#btn-catalog:hover{
+    background-color:#5f9a25;
+    color: white;
+    transition: .5s;
+}
+#categori-goods-title{
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.categori-goods{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.goods-clean{
+    text-align: center;
+}
+#ph{
+    height: 200px;
+}
+#goods-categori-name{
+    color: #2982C2;
+}
+#btn-goods{
+    width: 200px;
+    height: 50px;
+    background: #91f134;
+    color: #605E5E;
+    border-radius: 10px;
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#btn-goods:hover{
+    background-color:#5f9a25;
+    color: white;
+    transition: .5s;
+}
+.out-unix{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#text-out-unix-2{
+    width: 90%;
+    color: #333;
+    text-align: left;
+}
+#text-out-unix-1{
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+}
+.photo-our-unix{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+#ph-ou-ui{
+    color: rgb(83, 83, 83);
+    font-family: roboto,sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+#phot{
+    margin: auto;
+    display: flex;
+}
+.text-out-unix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrap5{
+    margin: auto;
+    width: 200px;
+}
+.care{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#care-photo{
+    width: 75%;
+}
+#care-text-1{
+    color: #333;
+    font-weight: 900;
+    text-align: right;
+}
+#care-text-2{
+    color:#333;
+    text-align: right;
+}
+#care-text-3{
+    color: #5f9a25;
+    text-align: right;
+}
+.basement{
+    background-color: #73c031;
+    min-height: 100px;
+    display: flow-root;
+}
+.basement-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.text-basement{
+    margin-left:  -30px;
+    margin-top: 20px;
+}
+.color-position-3{
+    color: white;
+}
+#psevdo{
+    text-align: center;
+    color: white;
+}
+#social{
+    color: wheat;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.menu-mob{
+    width: 0px;
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+.mbli{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#close{
+    color: antiquewhite;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#close:active{
+    color: tomato;
+}
+#retreat{
+    padding: 8px;
+}
+#s-phone{
+    text-decoration: none;
+    color: #4caf50;
+}
+#phone{
+    background: beige;
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    margin: auto;
+    color: #4caf50;
+}
+#color-a{
+    text-decoration: none;
+}
+#ph-buy{
+    margin-bottom: 35px;
+}
+#catol{
+    position: absolute;
+    margin-top: -59px;
+    display: flex;
+    margin-left: 3px;
+    line-height: 22px;
+    display: none;
+    padding: 20px;
+    background: #cccaca33;
+    border-radius: 10px;
+}
+.hov:hover #catol{
+    display: flex;
+}
+/* #catol:hover{
+    display: grid;
+} */
+a{
+    text-decoration: none;
+}
+.form{
+    display: grid;
+    max-width: 600px;
+    margin: auto;
+}
+#form-title{
+    color: #333;
+}
+#field{
+    margin-top: 10px;
+    text-align: center;
+}
+#logo{
+    display: flex;
+}
+#btn-field{
+    margin-top: 10px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+    color: white;
+    background: #4caf50;
+}
+#btn-field:hover{
+    background-color: #4d7e4e;
+}
+.admin_form{
+    display:flex;
+    flex-direction: column;
+}
+.login_admin{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.submit_admin{
+    color: white;
+    cursor: pointer;
+    background: #cc6d64;
+    padding: 5px;
+}
+.delete_product{
+    background: red;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+.product_add_button{
+    background: green;
+    padding: 5px; color: white;
+    width: 300px;
+}
+.product_input{
+    padding: 5px;
+    width: 300px;
+}
+.textarea_product{
+    resize:vertical;
+    padding: 5px;
+    width: 300px;
+}
